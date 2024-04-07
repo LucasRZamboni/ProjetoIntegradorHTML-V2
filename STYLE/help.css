@@ -1,0 +1,22 @@
+#textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.canais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 0px!important;
+}
+.denuncia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 0px!important;
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius:100px ;
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+#textos h2{
+    font-size: 20px;
+}
+#titulo h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 70vh;
+}
+#maps a,
+#dash a {
+  color: rgb(103, 103, 202);
+}
+#maps{
+   margin: 20px 0;
+}
+#maps p,
+#dash p{
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.p_border {
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, rgb(65, 170, 38), rgb(50, 189, 15));
+  border-image-slice: 2;
+  height: 100%;
+  border-left: none;
+  border-right: none;
+}

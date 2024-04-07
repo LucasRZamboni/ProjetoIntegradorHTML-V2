@@ -1,0 +1,32 @@
+#textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#textos h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thefrase{
+    position:relative;
+    margin: 20px 0;
+    height: fit-content;
+}
+.frase {
+  text-align: center;
+  color: white;
+  font-family: Gabriola;
+}
+
+#sombra {
+  text-align: center;
+  font-size: 15px;
+position: absolute;
+top: 10px;
+  color: rgba(255, 255, 255, 0.322);
+  font-style: italic;
+  font-family: Gabriola;
+  text-shadow: 0.5px 0.5px rgba(236, 236, 236, 0.336);
+}
